@@ -1,0 +1,58 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+    text-align: center;
+    padding: 20px;
+    background-image: url(../shop.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  .home-page h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .home-page p {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .home-page button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-page button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  @media (max-width: 768px) {
+    .home-page h1 {
+      font-size: 2.5rem;
+    }
+  
+    .home-page p {
+      font-size: 1.2rem;
+    }
+  
+    .home-page button {
+      font-size: 1rem;
+    }
+  }
+  
